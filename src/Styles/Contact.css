@@ -1,0 +1,87 @@
+.contact >h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    color: tomato;
+}
+.contact >h5{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 20px;
+    color: gray;
+    letter-spacing: 2px;
+}
+.contact__container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.contact__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.content__items{
+    padding: 20px;
+}
+.content__items > h4{
+    color: tomato;
+    padding: 10px;
+}
+.content__items > p{
+    color: gray;
+    padding: 10px;
+}
+.content__items > small{
+    color: gray;
+    padding: 10px;
+}
+.contact__form{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+.contact__form > h3{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.contact__form > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact__form > form > input{
+   padding: 30px;
+   margin: 10px;
+   height: 30px;
+   width: 90%;
+   border: none;
+   outline: none;
+  border-radius: 10px;
+
+}
+.contact__form > form > .input__message{
+  padding: 50px;
+
+}
+.contact__form > form > button{
+ background-color: tomato !important;
+ color: black;
+
+}

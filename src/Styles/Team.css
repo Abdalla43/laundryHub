@@ -1,0 +1,12 @@
+
+.team h2{
+    text-align: center;
+    color: tomato;
+    text-transform: uppercase;
+}
+.team__content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}

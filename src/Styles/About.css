@@ -1,0 +1,105 @@
+.about{
+    padding-top: 30px;
+}
+.about > h3{
+    text-align: center;
+    margin-top: 15px;
+    color: tomato;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 23px;
+    margin-bottom: 15px;
+   
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.about__us{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.about__video{
+    width: 500px;
+    height: 400px;
+}
+.about__us-content{
+    max-width: 700px;
+    padding: 10px;
+}
+.about__us-content > p{
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 18px;
+}
+.about__us-content > h2{
+    letter-spacing: 1px;
+   font-size: 21px;
+   color: tomato;
+   padding-bottom: 7px;
+}
+.about__us-content > h3{
+    letter-spacing: 1px;
+   font-size: 20px;
+   color: gray;
+   padding-bottom: 7px;
+}
+
+.about__quality > h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 23px;
+    color: tomato;
+
+}
+.quality__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about__quality-content{
+    max-width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+.about__quality-content > h3{
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.about__quality-content > p{
+    letter-spacing: 2px;
+    line-height: 2;
+}
+.about__team > h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: tomato;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.about__team-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+@media (max-width:700px){
+    .about__video{
+        width: 250px;
+        height: 200px;
+    }
+}

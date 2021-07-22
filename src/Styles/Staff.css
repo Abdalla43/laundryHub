@@ -1,0 +1,39 @@
+.staff__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.staff__content{
+    display: flex;
+    max-width: 330px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 2px 2px 3px rgba(0,0,0,0.09);
+}
+.staff__content > img{
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.staff__content > img:hover{
+    transform: scale(1.03);
+}
+.staff__content> h3{
+    color: tomato;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.staff__content > p{
+    letter-spacing: 2px;
+    line-height: 2;
+}

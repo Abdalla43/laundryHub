@@ -1,0 +1,26 @@
+.shop{
+    margin: 20px;
+    
+}
+
+.shop > h2{
+    text-align: center;
+    color: tomato;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.shop > h4{
+    text-align: center;
+    color: gray;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.shop__content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

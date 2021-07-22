@@ -1,0 +1,71 @@
+
+.pricing__loader{
+    margin-top: 20px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.pricing >h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: tomato;
+    padding-top: 20px;
+}
+.pricing >h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: gray;
+    padding-top: 20px;
+}
+
+.pricing__container{
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.pricing__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.46);
+}
+.pricing__content > img{
+    width: 300px;
+    height: 250px;
+}
+.pricing__content > h4{
+    padding: 10px;
+    color: tomato;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pricing__content > h5{
+    padding: 10px;
+    color: gray;
+    text-transform: capitalize;
+    text-align: center;
+}
+.pricing__content > button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: tomato !important;
+    color: black;
+}

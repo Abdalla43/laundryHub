@@ -1,0 +1,78 @@
+.footer{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     padding: 40px;
+}
+
+.footer__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.footer__about{
+    max-width: 400px;
+    text-align: center;
+}
+.footer__about > p{
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 18px;
+    color: gray;
+} 
+.footer__about > h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 23px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.footer__links{
+    max-width: 400px;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer__links > h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 23px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.footer__links > p:hover{
+    color: tomato;
+   
+}
+.footer__contact > h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 23px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.footer__contact{
+    max-width: 400px;
+    text-align: center;
+}
+.footer__contact > h5{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.footer > p{
+    text-align: center;
+    margin-top: 10px;
+    color: tomato;
+    font-size: 18px;
+}

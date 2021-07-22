@@ -1,0 +1,12 @@
+.service{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+}
+.service__avatar{
+width: 100px !important;
+height: 100px !important;
+}

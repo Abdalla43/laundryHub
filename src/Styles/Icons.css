@@ -1,0 +1,12 @@
+.icons{
+   padding-top: 10px;
+}
+.icons > .MuiSvgIcon-root{
+    font-size: xx-large !important;
+    margin-left: 20px;
+    cursor: pointer;
+ 
+}
+.icons > .MuiSvgIcon-root:hover{
+    color: tomato !important;
+}

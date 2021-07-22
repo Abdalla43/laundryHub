@@ -1,0 +1,44 @@
+.home__service{
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.home__service > button{
+    width: 150px;
+}
+.home__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.home__container > img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+.home__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    max-width: 350px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.home__testimonial > h3{
+  text-align: center;
+  color: tomato;
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

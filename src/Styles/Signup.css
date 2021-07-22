@@ -1,0 +1,32 @@
+.sign-up{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 80vh;
+   
+ }
+ .sign-up > form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 400px;
+     border: 1px solid lightblue;
+     padding: 40px;
+ }
+ .sign-up > form > input{
+     width: 95%;
+     background-color: whitesmoke;
+     border-radius: 20px;
+     margin: 10px;
+     height: 50px;
+     padding: 20px;
+     border: none;
+     outline: none;
+ }
+ .sign-up > form > button{
+     width: 80%;
+     margin: 12px;
+     border-radius: 10px;
+     height: 40px;
+     text-transform: uppercase;
+ }
